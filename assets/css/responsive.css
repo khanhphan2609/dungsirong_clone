@@ -1,0 +1,103 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .wrapper {
+        background-image: url('/assets/img/mobile/bg-m.jpg');
+    }
+    .nav__mobile {
+        position: fixed;
+        margin: 2vw 0 0vw 82vw;
+    }
+    .nav__mobile img {
+        width: 88%;
+    }
+    .nav_input:checked ~ .nav__bg {
+        display: block;
+    }
+    .nav_input:checked ~ .navbar__mobile-close {
+        display: block;
+        animation: fadeIn linear .2s;
+    }
+    .nav__bg {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        animation: fadeIn linear .3s;
+        display: none;
+    }
+    .nav__bg img {
+        width: 100%;
+    }
+    .navbar__mobile-close {
+        display: none;
+    }
+    .navbar__mobile-close img{
+        z-index: 2;
+        position: fixed;
+        top: 4vw;
+        right: 2vh;
+        margin-left: 80vw;
+        width: 16vw;
+    }
+    .nav--list {
+        z-index: 2;
+        position: fixed;
+        top: 26vh;
+        left: -5vh;
+        bottom: 0;
+        width: 400px;
+        max-width: 100%;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: transform linear 0.2s;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav--list li {
+        padding: 2vh 0;
+        text-align: center;
+    }
+    .nav_input:checked ~ .nav--list {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .btn img {
+        width: 110%;
+    }
+    .btn {
+        margin: 32vh 0 30vh 0;
+    }
+    
+    .download {
+        margin: 32vh 0 0 -1vh;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    :root {
+        --header-height: 86px;
+        --navbar-height: 0;
+    }   
+}
+/* Mobile */
+
+/* PC */
+@media (min-width: 1023px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

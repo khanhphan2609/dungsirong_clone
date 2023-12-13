@@ -1,0 +1,52 @@
+.wrapper {
+    height: 120vh;
+    background-image: url('/assets/img/pc/bg-pc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+.nav--list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 2vh 6vh 0 6vh;
+}
+
+.nav--item {
+
+}
+
+.nav--item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn {
+    justify-content: space-around;
+    margin: 30vh 4vh 30vh 4vh;
+}
+
+.btn img {
+    width: 80%;
+}
+
+.download {
+    margin-top: 54vh;
+}
+
+.download img {
+    width: 100%;
+}
+
+/* Animation Btn */
+.img--off {
+    filter: brightness(1);
+}
+
+.img--on {
+    filter: brightness(1.2);
+}
