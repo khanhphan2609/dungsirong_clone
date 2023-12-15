@@ -17,10 +17,6 @@
     font-weight: 700;
 }
 
-.nav--item {
-    
-}
-
 .nav--item a {
     text-decoration: none;
     color: #fff;
@@ -45,10 +41,11 @@
 }
 
 /* Animation Btn */
-.img--off {
-    filter: brightness(1);
+.img--off:hover {
+    filter: brightness(1.5);
+    transform: scale(1.1);
 }
 
-.img--on {
+/* .img--on {
     filter: brightness(1.2);
-}
+} */

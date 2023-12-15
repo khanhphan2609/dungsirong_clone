@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    HoverBtn();
+    // HoverBtn();
 
     $(document).on('click', '.btn', function() {
         ClickBtnCommingSoon();
