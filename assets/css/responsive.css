@@ -3,6 +3,10 @@
     .hide-on-mobile-tablet {
         display: none;
     }
+    #bg--video {
+        height: 100vh;
+        overflow: hidden;
+    }
     #wrapper--video {
         display: none;
     }
