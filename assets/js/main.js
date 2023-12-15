@@ -31,6 +31,9 @@ function checkDevide() {
     || navigator.userAgent.match(/Windows Phone/i)) {
         var androi = document.querySelector('.download--android')
         androi.classList.add('hide-on-mobile-tablet')
+
+        var apk = document.querySelector('.download--apk')
+        apk.classList.add('hide-on-mobile-tablet')
     } else {
         var appstore = document.querySelector('.download--ios')
         appstore.classList.add('hide-on-mobile-tablet')

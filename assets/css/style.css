@@ -18,7 +18,7 @@
 }
 
 .nav--item {
-
+    
 }
 
 .nav--item a {
@@ -26,11 +26,14 @@
     color: #fff;
 }
 
+.btn--wrapper {
+    margin: 0 8vw;
+}
 
 .btn--home, 
 .btn--card {
-    margin: 34vw 0 0 1vw;
-    width: 86%;
+    margin: 36vw 0 0 2vw;
+    width: 70%;
 }
 
 .download {

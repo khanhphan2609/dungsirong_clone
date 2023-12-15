@@ -4,6 +4,7 @@
         display: none;
     }
     .wrapper {
+        max-height: 100vh;
         background-image: url('/assets/img/mobile/bg-m.jpg');
     }
     .nav__mobile {
