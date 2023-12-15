@@ -4,6 +4,11 @@ $(document).ready(function () {
     $(document).on('click', '.btn', function() {
         ClickBtnCommingSoon();
     });
+    checkDevide();
+
+
+    var download = $('.download')
+    download.css("margin", "24vw 0 0 -3vw");
 });
 
 function HoverBtn() {
@@ -34,12 +39,12 @@ function checkDevide() {
 
         var apk = document.querySelector('.download--apk')
         apk.classList.add('hide-on-mobile-tablet')
+
     } else {
         var appstore = document.querySelector('.download--ios')
         appstore.classList.add('hide-on-mobile-tablet')
     }
 }
-checkDevide();
 
 // SweetAlert
 function ClickBtnCommingSoon() {
