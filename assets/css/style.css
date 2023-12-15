@@ -8,12 +8,13 @@
 }
 
 .nav--list {
+    position: relative;
+    top: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 2vh 6vh 0 6vh;
 }
 
 .nav--item {
@@ -25,17 +26,15 @@
     color: #fff;
 }
 
-.btn {
-    justify-content: space-around;
-    margin: 30vh 4vh 30vh 4vh;
-}
 
-.btn img {
-    width: 80%;
+.btn--home, 
+.btn--card {
+    margin: 34vw 0 0 1vw;
+    width: 86%;
 }
 
 .download {
-    margin-top: 54vh;
+    margin-top: 48vw;
 }
 
 .download img {

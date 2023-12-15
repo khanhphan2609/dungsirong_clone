@@ -1,5 +1,9 @@
 $(document).ready(function () {
     HoverBtn();
+
+    $(document).on('click', '.btn', function() {
+        ClickBtnCommingSoon();
+    });
 });
 
 function HoverBtn() {
@@ -18,4 +22,23 @@ function HoverBtn() {
             $(this).toggleClass('img--off img--on');
         }
     );
+}
+
+function checkDevide() {
+    if (navigator.userAgent.match(/webOS/i)
+    || navigator.userAgent.match(/iPhone/i)
+    || navigator.userAgent.match(/iPad/i)
+    || navigator.userAgent.match(/Windows Phone/i)) {
+        var androi = document.querySelector('.download--android')
+        androi.classList.add('hide-on-mobile-tablet')
+    } else {
+        var appstore = document.querySelector('.download--ios')
+        appstore.classList.add('hide-on-mobile-tablet')
+    }
+}
+checkDevide();
+
+// SweetAlert
+function ClickBtnCommingSoon() {
+    swal("Comming Soon...");
 }

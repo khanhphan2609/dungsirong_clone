@@ -7,7 +7,7 @@
         background-image: url('/assets/img/mobile/bg-m.jpg');
     }
     .nav__mobile {
-        position: fixed;
+        position: relative;
         margin: 2vw 0 0vw 82vw;
     }
     .nav__mobile img {
@@ -48,7 +48,7 @@
         z-index: 2;
         position: fixed;
         top: 26vh;
-        left: -5vh;
+        left: 0;
         bottom: 0;
         width: 400px;
         max-width: 100%;
@@ -67,15 +67,21 @@
         transform: translateX(0);
         opacity: 1;
     }
-    .btn img {
-        width: 110%;
+    .btn--wrapper {
+        margin-top: 100vw;
     }
     .btn {
-        margin: 32vh 0 30vh 0;
+        margin: -2vw 0 0 0vw;
+        width: 110%;
+    }
+    .btn--home,
+    .btn--card {
+        margin-left: -1vw;
     }
     
     .download {
-        margin: 32vh 0 0 -1vh;
+        margin: 6vw 0 0 -3vw;
+        width: 130%;
     }
 }
 /* Tablet */
