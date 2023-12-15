@@ -1,11 +1,23 @@
+
+#wrapper--video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: vw;
+    min-height: 100%;
+}
+
 .wrapper {
+    position: absolute;
+    /* z-index: 10;
     height: 120vh;
-    background-image: url('/assets/img/pc/bg-pc.jpg');
+    background-image: url(/assets/img/pc/bg-pc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden; */
 }
+
 
 .nav--list {
     position: relative;
@@ -33,7 +45,7 @@
 }
 
 .download {
-    margin-top: 48vw;
+    margin-top: 50vw;
 }
 
 .download img {
