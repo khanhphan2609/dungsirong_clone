@@ -88,11 +88,11 @@
     }
     .btn--home,
     .btn--card {
-        margin-left: -1vw;
+        margin: 12vw 0 0 -1vw;
     }
     
     .download {
-        margin: 6vw 0 0 -3vw;
+        margin: 18vw 0 0 -3vw;
         width: 130%;
     }
 }
