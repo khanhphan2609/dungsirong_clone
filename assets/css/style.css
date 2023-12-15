@@ -41,6 +41,10 @@
 }
 
 /* Animation Btn */
+.img--off {
+    transition: .3s;
+}
+
 .img--off:hover {
     filter: brightness(1.5);
     transform: scale(1.1);
