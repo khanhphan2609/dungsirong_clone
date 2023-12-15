@@ -5,10 +5,6 @@ $(document).ready(function () {
         ClickBtnCommingSoon();
     });
     checkDevide();
-
-
-    var download = $('.download')
-    download.css("margin", "24vw 0 0 -3vw");
 });
 
 function HoverBtn() {
@@ -39,6 +35,9 @@ function checkDevide() {
 
         var apk = document.querySelector('.download--apk')
         apk.classList.add('hide-on-mobile-tablet')
+
+        var download = $('.download')
+        download.css("margin", "24vw 0 0 -3vw");
 
     } else {
         var appstore = document.querySelector('.download--ios')
